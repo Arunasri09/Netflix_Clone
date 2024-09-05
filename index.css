@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&family=Roboto:wght@400;500;700;900&display=swap');
+
+*
+{
+   margin: 0;
+   padding: 0; 
+   box-sizing: border-box;
+   font-family: 'Roboto', sans-serif;
+}
+body{
+background-color: #000;
+}
+
+.header
+{
+    height:100vh;
+    width:100%;
+    background-image:linear-gradient(to top, rgba(0.9, 0, 0, 0.9), rgba(0, 0, 0, 0.6) 60%, rgba(0, 0, 0, 0.7) 100%), url(assests/png/mainpage/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: cover;
+    position: relative;
+    padding:10px;
+    color: #fff;
+}
+
+nav{
+    display:flex;
+    justify-content: space-between; 
+    align-items: center;
+   margin: 0px 140px;
+}
+
+nav .logo
+{
+    width:170px;
+    padding:0px 7px;
+   
+}
+nav button
+{
+    border:none;
+    outline: none;
+}
+nav .language
+{
+    background:transparent;
+    font-size: 1rem;
+    line-height: 1rem;
+    color: #ffff;
+    border-radius:3.5px;
+    /* border: 0 solid transparent; */
+    border: 2px solid #8888; 
+    margin:0px 20px 0px 0px;
+    font-weight:250;
+    padding: 6px 20px;
+}
+  nav .signin 
+{
+background-color:red;
+font-size: 1rem;
+color:#fff;
+border-radius:3.5px;
+margin:0px 20px 10px 0px;
+cursor: pointer;
+font-weight:500;
+padding: 6px 14px;
+}
+
+nav .sign{
+    font-size: 1rem;
+    
+
+}
+
+nav .signin:hover{
+    background-color: rgb(215, 25, 25);
+}
+
+.header-title
+{
+    position:absolute;
+    top:40%;
+    left:10%;
+    right:10%;
+    /* transform: translate(-50%,-50%);  */
+    text-align: center; 
+
+}
+.header-title h1{
+    font-size: 47px;
+    font-weight: 1000;
+    font-family: Arial, Helvetica, sans-serif;
+     /* line-height: 100px;  */
+    /* max-width: 1300px; */
+    /* padding: 0px 160px; */
+}
+.header-title h3{
+    font-weight:400;
+    margin: 20px;
+    font-size:1.6rem;
+}
+
+.header-title p{
+    font-size:1.3rem;
+    padding-top: 10px;
+    font-weight: 400;
+}
+  .email-form input{
+    /* flex:display; */
+    width:370px;
+    height:55px;
+    margin: 25px 7px 0px 50px; 
+    /* background-color:#222222a1; */
+    border: 0.5px solid #666;
+    border-radius: 4px;
+}
+ .email-form input::placeholder
+{
+    font-size: 1rem;
+    font-weight: 300;
+     padding-left: 5%; 
+     font-family: Arial, Helvetica, sans-serif;
+    color:#ffffffb2;
+}
+
+ .email-form button{
+    width:200px;
+    height:59px; 
+    border: none;
+    background-color:red;
+    color: #ffff;
+    font-size:1.5rem;
+    font-weight: 500;
+    cursor: pointer;
+    /* padding: 13px 29px; */
+    margin: 0px 0px 0px 0px;
+    border-radius: 3px;
+}
+
+ .email-form button:hover{
+background-color: rgb(215, 25, 25);
+}
+
+
+.container
+{
+    display:flex;
+    height: 80vh;
+}
+
+/* .container .container-title
+{
+    padding : 13% 0% 0% 8%;
+
+} */
+
+.container .container-title h1{
+    font-size: 2.7rem;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 25% 0% 0% 19%;
+    color: #fff;
+}
+ .container .container-title p{
+    font-size: 1.4rem;
+    font-weight:100;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing:1px;
+    line-height:4.5vh ;
+    padding:2% 5% 0% 19%;
+    color: #fff;
+    
+}
+
+ .container .sideimg
+{
+    margin :5% 10% 0% 0%;
+    width: 40%;
+    height: 55vh;
+} 
+
+.container1
+{
+    display:flex;
+    height: 80vh;
+}
+
+/* .container-title
+{
+    padding : 10% 6%;
+
+} */
+
+
+.container1 .container-title1 h1{
+    font-size: 2.7rem;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 25% 19% 0% 9.5%;
+    color: #fff;
+}
+.container1 .container-title1 p{
+    font-size: 1.4rem;
+    font-weight:100;
+    font-family: Arial, Helvetica, sans-serif, Helvetica, sans-serif;
+    letter-spacing:1px;
+    line-height:4.5vh ;
+    padding:2% 20% 0% 10%;
+    color: #fff;
+}
+
+.container1 .sideimg
+{
+    margin: 6% 0% 0% 5%;
+    width: 42%;
+    height: 370px;
+}
+
+.minibar
+{
+    max-width: 100%;
+    height:9px;
+    background-color: #222;
+}
+
+.faq{
+    
+    /* padding: 10px 20px; */
+    font-size: 1rem;
+    text-align: center;
+}
+
+ 
+.faq h1{
+    font-weight: 850;
+    font-size: 2.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+    padding-top: 5%;
+}
+
+.faq ul{
+    margin:13px auto;
+     width:100% ; 
+     max-width: 1150px; 
+
+}
+
+.faq ul li{
+    list-style: none;
+    width:100% ;
+    padding:4px ;
+}
+
+ .faq ul li label{
+    display: flex;
+    background-color:#69696977;
+    color:#FFFFFF;
+    font-size:1.5rem ;
+    font-weight:100;
+    font-family: Arial, Helvetica, sans-serif;
+    padding:29px ;
+    align-items: center;
+    margin-bottom:3px;
+    cursor: pointer;
+    position: relative;
+   
+}
+
+.faq ul li label:hover{
+    background-color: #444;
+}
+
+label::after{
+    content:'+';
+    font-size: 70px;
+    position: absolute;
+    right: 20px;
+
+}
+
+  .faq .content p{
+   background-color: #494848; 
+   text-align: center;
+   padding: 0px 0%;
+   max-height: 0;
+   overflow: hidden;
+}   
+
+
+input[type="radio"]{
+    display: none;
+   
+}
+
+ .down p{
+
+    font-size:1.3rem;
+    padding-top:37px;
+    padding-left: 27%;
+    font-weight: 400;
+    color: #fff;
+} 
+
+ .email-form input{
+    /* flex:display; */
+    width:370px;
+    height:55px;
+    margin: 29px 4px 5% 30%; 
+    background-color:#22222234;
+    border: 0.5px solid #555;
+    border-radius: 4px;
+}
+
+ footer{
+     padding:4% 0% 5% 12%;
+    border-top:8px solid #333333ad;    
+}
+
+footer h1{
+    font-size:1rem;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.3px;
+    margin:15px 0px 0px 0px;
+    color:#ffffff9e;
+}
+
+
+footer .col{
+    
+    margin: 2% 5% 0% 0%;
+    padding-right: 100px ;
+}
+
+ footer .row{
+    display: flex;
+    align-items:flex-start ;
+   
+
+}
+
+ footer .col a{
+    cursor: pointer;
+    color:#ffffff9e;
+    font-size: 0.9rem;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.3px;
+    padding:10px 0%;
+    display: block;
+
+}
+
+footer .language{
+    background:transparent ;
+    border:1px solid #555555e1;
+    color:#ffffffd1;
+    font-size:1rem ;
+    letter-spacing: 0.4px;
+    border-radius: 3px;
+    margin-top:25px ;
+    padding: 10px 17px;
+   
+}
+
+
+footer .country{
+    padding: 20px 0px;
+    font-size: 0.9rem;
+    color:#ffffff9e;
+} 
+
+
+
+ 

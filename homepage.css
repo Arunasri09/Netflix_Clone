@@ -1,0 +1,328 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing:border-box;
+}
+
+
+body{
+    background-color: #181818;
+
+}
+
+
+ nav{
+    background-color:black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 10px ,0px; */
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+}
+
+nav .logo{
+    width: 140px;
+    padding-left: 2%;
+    padding-right: 0%;
+   
+}
+
+ nav .para{
+    color:#FFFFFF;
+    /* margin: 0px 0px 0px 0px; */
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    letter-spacing:0.9px;
+    padding: 0% 0% 0% 58%; 
+}
+ 
+
+ nav button{
+    border: none;
+    outline: none;
+    cursor:pointer;
+    margin-right:45px;
+}
+
+
+ nav .join{
+    color:#FFFFFF ;
+    background: rgba(255, 0, 0, 0.914);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:13px ;
+    font-weight:400 ;
+    padding:9px 21px ;
+    margin-right: 5px  ;
+    border-radius: 2px;
+ }
+
+
+nav .signin{
+     color: #FFFFFF;
+     background-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    padding: 9px 19px;
+    border: 1px solid #888;
+    border-radius: 2px;
+    line-height: 13px;
+    
+
+}
+
+nav .signin:hover{
+    background-color:#444;
+    color:#FFFFFF ;
+
+}
+
+nav .join:hover{
+    background-color: rgba(255, 0, 0, 0.966);
+    color:#FFFFFF ;
+} 
+
+
+
+ section .homeinfo h1{
+    color:#fff;
+    display: block;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size:50px;
+    padding: 8% 0% 0% 4% ;
+    font-weight: 900;
+}
+
+
+section .homeinfo p{
+    color: #ffffffee;
+    padding-top:  1%;
+    padding-right: 4%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:18px;
+    letter-spacing:0.9px;
+    line-height: 25px;
+
+}  
+
+
+ /* .banner{
+    background-image:linear-gradient(90deg,#181818 0%,hsla(0,0%,9%,.98) 0%,hsla(0,0%,9%,.97) 15%,hsla(0,0%,9%,.95) 
+    30%,hsla(0, 0%, 9%, 0.022) 30%,hsla(0,0%,9%,.92) 30%,hsla(0, 0%, 9%, 0.059) 80%,hsla(0,0%,9%,.87) 0%,hsla(0,0%,9%,.82)
+     0%,hsla(0,0%,9%,.75) 5%,hsla(0, 0%, 9%, 0.032) 0%,hsla(0,0%,9%,.45) 5%,hsla(0,0%,9%,.27) 0%,hsla(0,0%,9%,.15)
+     5%,hsla(0,0%,9%,.08) 0%,hsla(0,0%,9%,.03) 5%,hsla(0,0%,9%,0)),url('assests/jpg/banner/popular/kushi_banner.jpg');
+    background-position: center center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    height: 100vh;
+}  
+
+
+ .banner .banner-content{
+    padding:9% 7%;  
+
+}
+
+.banner .banner-content .banner-title img{
+    height:auto;
+    width: 46%;
+    object-fit:cover;
+   
+
+} 
+
+ .banner .banner-content .banner-title h1 {
+    letter-spacing:1.5px;
+    color:white;
+    font-size: 25px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:450;
+     padding:5% 0% 0% ; 
+
+} 
+
+.banner .banner-content .banner-title h5{
+    
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 50;
+    font-size: 1rem;
+    color:#fff;
+    padding: 3% 0% ;
+
+}
+
+.banner .banner-content .banner-title p{
+    max-width:600px;
+    color:aliceblue;
+    font-size: 1rem;
+     padding:3% 5% 3% 0%; 
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 100;
+
+}
+
+
+
+.banner .banner-content .banner-button .play{
+    
+    background-color: #fff;
+    color:darkblue;
+    border: none;
+    border-radius: 5px;
+    padding:1% 2%;
+    font-size:1.3rcm;
+    margin-right:10px; 
+    transition: 0.4s;  
+    font-size:small;
+
+}
+.banner .banner-content .banner-button .play:hover{
+    background-color:#222 ;
+    color:red;
+    font-size:large;
+
+}
+
+
+.banner .banner-content .banner-button .info{
+    background-color: #fff;
+    color:darkblue;
+    border: none;
+    border-radius: 5px;
+    padding:1% 2%;
+    font-size:1.3rcm;
+    margin-right:5px; 
+    transition: 0.4s;  
+    font-size:small;
+}
+
+.banner .banner-content .banner-button .info:hover{
+    background-color:#222 ;
+    color:red;
+    font-size: large;
+} 
+ */
+
+
+  section p{
+    color:#fff;
+    padding-top:  3% ;
+    padding-left: 4%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:20px;
+    font-weight: 500;
+}
+
+ .posters{
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll; 
+    margin:1.2% 0% 0% 4%;
+}
+
+.posters .poster-title{
+    margin-right:12px;
+
+}
+
+ .posters .poster-title .poster{
+   transition: transform 420ms;
+   height:170px;
+
+}
+
+.posters .poster-title h3{
+     color:#ffffffee;
+     font-size: 17px;
+     font-family: Arial, Helvetica, sans-serif;
+     font-weight: 100;
+     letter-spacing: 0.5px;
+     text-align: center;
+     padding-top: 2%;
+     padding-bottom: 9%;
+}
+  
+
+ section .posters .poster:hover{
+    transform: scale(1.09); 
+    
+}
+
+section .posters::-webkit-scrollbar{
+    width:0;
+}
+
+section .posters::-webkit-scrollbar-track{
+   
+    background-color:#181818; 
+}  
+
+section .posters::-webkit-scrollbar-thumb{
+
+    background-color:#181818; 
+}   
+ 
+
+
+footer{
+   padding:3% 10% 3% 12%;
+   border-top:5px solid #333; 
+   color: #666;   
+}
+
+footer h2 {
+    font-size:16px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.7px;
+     margin-bottom:7%;
+}
+
+footer h1{
+    font-size:17.5px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.7px;
+    margin:15px 80% 0px 0px;
+    
+}
+
+footer .col{
+    
+    margin: 2% 5% 0% 0%;
+    padding-right: 100px ;
+}
+
+ footer .row{
+    display: flex;
+    align-items:flex-start ;
+ }
+
+ footer .col a{
+    cursor: pointer;
+    color: #666666f9; 
+    font-size: 0.9rem;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.3px;
+    padding:10px 0%;
+    display: block;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+footer .language{
+    background:#111 ;
+    border:0.1px solid #333;
+    color: #888;
+    font-size:0.8rem ;
+    border-radius: 3px;
+    margin-top: 2%;
+    /* margin-right:0% ; */
+    padding: 13px 20px ;
+}
+
+
